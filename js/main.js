@@ -24,27 +24,19 @@ document.addEventListener('DOMContentLoaded', function () {
   const navToggle = document.getElementById('navToggle');
   const navLinks = document.getElementById('navLinks');
 
-  // Create overlay element
-  const navOverlay = document.createElement('div');
-  navOverlay.classList.add('nav-overlay');
-  document.body.appendChild(navOverlay);
-
   function toggleMenu() {
     navToggle.classList.toggle('active');
     navLinks.classList.toggle('open');
-    navOverlay.classList.toggle('active');
     document.body.style.overflow = navLinks.classList.contains('open') ? 'hidden' : '';
   }
 
   function closeMenu() {
     navToggle.classList.remove('active');
     navLinks.classList.remove('open');
-    navOverlay.classList.remove('active');
     document.body.style.overflow = '';
   }
 
   navToggle.addEventListener('click', toggleMenu);
-  navOverlay.addEventListener('click', closeMenu);
 
   // Close menu on link click
   navLinks.querySelectorAll('a').forEach(function (link) {
