@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://katzirresort.co.il/sitemap.xml
