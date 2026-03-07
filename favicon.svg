@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Full background (for square contexts) -->
+  <rect width="512" height="512" fill="#3A3028"/>
+  <!-- Circular background (clean in round crop) -->
+  <circle cx="256" cy="256" r="256" fill="#3A3028"/>
+  <!-- Gold circle border -->
+  <circle cx="256" cy="256" r="236" fill="none" stroke="#C9A96E" stroke-width="5"/>
+  <!-- Inner decorative circle -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#C9A96E" stroke-width="1.5" opacity="0.4"/>
+  <!-- Monogram K -->
+  <text x="185" y="330" font-family="'Georgia', 'Times New Roman', serif" font-weight="600" font-size="240" fill="#C9A96E" text-anchor="middle">K</text>
+  <!-- Thin separator line -->
+  <line x1="256" y1="130" x2="256" y2="382" stroke="#C9A96E" stroke-width="2.5" opacity="0.6"/>
+  <!-- Monogram R -->
+  <text x="328" y="330" font-family="'Georgia', 'Times New Roman', serif" font-weight="600" font-size="240" fill="#C9A96E" text-anchor="middle">R</text>
+  <!-- Top decorative diamond -->
+  <polygon points="256,100 263,110 256,120 249,110" fill="#C9A96E" opacity="0.5"/>
+  <!-- Bottom decorative diamond -->
+  <polygon points="256,392 263,402 256,412 249,402" fill="#C9A96E" opacity="0.5"/>
+</svg>
